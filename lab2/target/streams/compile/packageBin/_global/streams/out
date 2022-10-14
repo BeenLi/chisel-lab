@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/oneshot/chisel-lab/lab2/target/scala-2.12/lab2_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AddSub.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oneshot/chisel-lab/lab2/target/scala-2.12/classes/AddSub.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Majority$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oneshot/chisel-lab/lab2/target/scala-2.12/classes/Majority$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Decoder$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oneshot/chisel-lab/lab2/target/scala-2.12/classes/Decoder$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oneshot/chisel-lab/lab2/target/scala-2.12/classes/Mux2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Majority$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oneshot/chisel-lab/lab2/target/scala-2.12/classes/Majority$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Majority.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oneshot/chisel-lab/lab2/target/scala-2.12/classes/Majority.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Majority$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oneshot/chisel-lab/lab2/target/scala-2.12/classes/Majority$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oneshot/chisel-lab/lab2/target/scala-2.12/classes/Mux2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Decoder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oneshot/chisel-lab/lab2/target/scala-2.12/classes/Decoder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AddSub$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/oneshot/chisel-lab/lab2/target/scala-2.12/classes/AddSub$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

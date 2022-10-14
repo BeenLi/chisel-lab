@@ -1,0 +1,42 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MajorityPrinter, org.scalatest.tools.Framework$$anon$1@790f3529, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MajoritySimple, org.scalatest.tools.Framework$$anon$1@790f3529, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MajorityFull, org.scalatest.tools.Framework$$anon$1@790f3529, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DecoderSpec, org.scalatest.tools.Framework$$anon$1@790f3529, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Mux2Spec, org.scalatest.tools.Framework$$anon$1@790f3529, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(AddSubSpec, org.scalatest.tools.Framework$$anon$1@790f3529, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMux2Spec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMajorityFull:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMajority exhaustive test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should pass *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  io_out=true (1, 0x1) did not equal expected=false (0, 0x0) (lines in MajoritySpec.scala: 52, 50) (MajoritySpec.scala:61)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMux2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should pass *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  io_y=true (1, 0x1) did not equal expected=false (0, 0x0) (lines in Mux2Spec.scala: 10, 9, 8, 7) (Mux2Spec.scala:17)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAddSubSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAddSub[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should pass *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  io_y=0 (0x0) did not equal expected=3 (0x3) (lines in AddSubSpec.scala: 8) (AddSubSpec.scala:13)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMajorityPrinter:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMajority print results[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDecoderSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDecoder[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should pass *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  io_out=0 (0x0) did not equal expected=1 (0x1) (lines in DecoderSpec.scala: 8, 7) (DecoderSpec.scala:13)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMajoritySimple:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMajority simple test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 995 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 4, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 4 TESTS FAILED ***[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MajoritySimple[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MajorityPrinter[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	MajorityFull[0m
+[0m[[0m[31merror[0m] [0m[0m	DecoderSpec[0m
+[0m[[0m[31merror[0m] [0m[0m	AddSubSpec[0m
+[0m[[0m[31merror[0m] [0m[0m	Mux2Spec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
