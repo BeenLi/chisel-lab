@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/oneshot/chisel-lab/lab3/src/main/scala/Accu.scala:17:24: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(0)[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.Data[0m
+[0m[[0m[31merror[0m] [0m[0m    accumulator_reg := 0[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 12 products, 9 sources, 6 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/test/scala/AccuSpec.scala, ${BASE}/src/test/scala/Count6Spec.scala, ${BASE}/src/test/scala/PwmSpec.scala, ${BASE}/src/test/scala/UseMux2Spec.scala, ${BASE}/src/test/scala/Mux2Spec.scala, ${BASE}/src/test/scala/DelaySpec.scala, ${BASE}/src/test/scala/BasicTest.scala, ${BASE}/src/test/scala/Count15Spec.scala, ${BASE}/src/test/scala/Mux4Spec.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set(NamesChange(Accu,ModifiedNames(changes = UsedName(accumulator_reg,[Default])))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe Accu has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(accumulator_reg,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) Accu: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNow invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) Accu.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of AccuSpec. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

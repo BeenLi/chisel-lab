@@ -9,8 +9,14 @@ class Count6 extends Module {
 
   // ***** your code starts here *****
 
-  res := 0.U // dummy code to make it compile
+//  res := 0.U // dummy code to make it compile
 
+  val counter_reg = RegInit(0.U(4.W))
+  counter_reg := counter_reg + 1.U(4.W)
+  when (counter_reg === 6.U){
+    counter_reg := 0.U
+  }
+  res := counter_reg
   // ***** your code ends here *****
 
   io.dout := res

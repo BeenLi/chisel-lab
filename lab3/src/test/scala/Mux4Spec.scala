@@ -7,6 +7,7 @@ class Mux4Spec extends AnyFlatSpec with ChiselScalatestTester {
     test(new Mux4) { dut =>
       for (n <- 0 to 15) {
         for (sel <- 0 to 3) {
+          // 把 n 的每一位取出来 从低位->高位  a b c d
           dut.io.a.poke((n & 0x1).U)
           dut.io.b.poke(((n >> 1) & 0x1).U)
           dut.io.c.poke(((n >> 2) & 0x1).U)
@@ -16,7 +17,7 @@ class Mux4Spec extends AnyFlatSpec with ChiselScalatestTester {
 
           val res = (n >> sel) & 0x1
 
-          // println(n + " " + sel + " " + res)
+          println(n + " " + sel + " " + res)
           dut.io.y.expect(res.U)
         }
       }
